@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- FROM: http://fxrlabs.com/google/android-button-xml-drop-shadow/
+            Help used just to see the shadows on a button with API versions lower than API21 :D -->
     <item android:state_pressed="false">
         <layer-list>
             <!-- SHADOW -->

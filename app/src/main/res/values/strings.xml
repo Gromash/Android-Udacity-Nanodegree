@@ -9,4 +9,10 @@
     <string name="ant_terminator">BUILD IT BIGGER</string>
     <string name="materialize">BACON READER</string>
     <string name="capstone">CAPSTONE: MY OWN APP</string>
+    <string name="toast_mediaStreamer">This button will launch the Spotify Streamer app</string>
+    <string name="toast_duo1">This button will launch the Scores app</string>
+    <string name="toast_duo2">This button will launch the Library app</string>
+    <string name="toast_terminator">This button will launch the Build it Bigger app</string>
+    <string name="toast_baconReader">This button will launch the Bacon Reader app</string>
+    <string name="toast_capstone">This button will launch My Capstone app</string>
 </resources>

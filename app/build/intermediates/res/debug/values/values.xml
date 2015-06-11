@@ -190,6 +190,13 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <!-- From: file:/C:/Users/Israel/AndroidStudioProjects/nanodegree/proyecto1/MyAppPortfolio/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="menu_bottom_margin">10dp</dimen>
+    <dimen name="padding_for_buttons">20dp</dimen>
+    <dimen name="up_and_down_padding">16dp</dimen>
+    <!-- From: file:/C:/Users/Israel/AndroidStudioProjects/nanodegree/proyecto1/MyAppPortfolio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
+    <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
@@ -230,6 +237,12 @@
     <string name="my_title">My Nanodegree Apps!!</string>
     <string name="super_duo1">SCORES APP</string>
     <string name="super_duo2">LIBRARY APP</string>
+    <string name="toast_baconReader">This button will launch the Bacon Reader app</string>
+    <string name="toast_capstone">This button will launch My Capstone app</string>
+    <string name="toast_duo1">This button will launch the Scores app</string>
+    <string name="toast_duo2">This button will launch the Library app</string>
+    <string name="toast_mediaStreamer">This button will launch the Spotify Streamer app</string>
+    <string name="toast_terminator">This button will launch the Build it Bigger app</string>
     <!-- From: file:/C:/Users/Israel/AndroidStudioProjects/nanodegree/proyecto1/MyAppPortfolio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

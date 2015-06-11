@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 
@@ -15,56 +14,40 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Spotify Streamer Button
-        Button streamer = (Button)findViewById(R.id.button);
-        streamer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "This button will launch the Spotify Streamer app", Toast.LENGTH_SHORT).show();
-            }
-        });
-        //Scores App
-        Button scores = (Button)findViewById(R.id.button2);
-        scores.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"This button will launch the Scores app", Toast.LENGTH_SHORT).show();
-            }
-        });
-        //Library App
-        Button library = (Button)findViewById(R.id.button3);
-        library.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"This button will launch the Library app", Toast.LENGTH_SHORT).show();
-            }
-        });
-        //Build it Bigger
-        Button bigger = (Button)findViewById(R.id.button4);
-        bigger.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"This button will launch the Build it Bigger app", Toast.LENGTH_SHORT).show();
-            }
-        });
-        //Bacon Reader
-        Button reader = (Button)findViewById(R.id.button5);
-        reader.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"This button will launch the Bacon Reader app", Toast.LENGTH_SHORT).show();
-            }
-        });
-        //My App :D
-        Button myApp = (Button)findViewById(R.id.button6);
-        myApp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"This button will launch my capstone app", Toast.LENGTH_SHORT).show();
-            }
-        });
-
     }
+
+    /**
+     *BUTTONS ON MAIN ACTIVITY
+     **/
+    //Spotify Streamer Button
+    public void clickOnStreamerButton(View view){
+        ToastText(getResources().getString(R.string.toast_mediaStreamer));
+    }
+    //Scores App
+    public void clickOnScoresAppButton(View view){
+        ToastText(getResources().getString(R.string.toast_duo1));
+    }
+    //Library App
+    public void  clickOnLibraryAppButton(View view){
+        ToastText(getResources().getString(R.string.toast_duo2));
+    }
+    //Build it Bigger
+    public void clickOnBiggerAppButon(View view){
+        ToastText(getResources().getString(R.string.toast_terminator));
+    }
+    //Bacon Reader
+    public void clickOnBaconReaderAppButton(View view){
+        ToastText(getResources().getString(R.string.toast_baconReader));
+    }
+    //My App :D
+    public void clickOnCapstoneAppButton(View view){
+        ToastText(getResources().getString(R.string.toast_capstone));
+    }
+
+    void ToastText(String s){
+        Toast.makeText(getApplicationContext(),s,Toast.LENGTH_SHORT).show();
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
